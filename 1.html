@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Chat</title>
+    <!-- Tailwind CSS CDN for easy styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom scrollbar for the chat log */
+        .chat-log::-webkit-scrollbar {
+            width: 8px;
+        }
+        .chat-log::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+        .chat-log::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
+        .chat-log::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+    <div class="bg-white p-8 rounded-xl shadow-lg w-full max-w-3xl">
+        <h1 class="text-3xl font-bold text-center text-gray-800 mb-6">Real-Time Chat</h1>
+
+        <!-- Connection Status and Client ID Display -->
+        <div class="mb-6 text-center">
+            <span id="connection-status" class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-red-100 text-red-800 mb-2">
+                Disconnected
+            </span>
+            <p class="text-gray-600 text-sm">Your Client ID: <span id="client-id" class="font-semibold text-blue-700">Connecting...</span></p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Left Side: Send Message -->
+            <div class="p-4 bg-blue-50 rounded-lg border border-blue-200">
+                <h2 class="text-xl font-semibold text-blue-800 mb-4">Send Message</h2>
+                <div class="mb-4">
+                    <label for="recipient-id" class="block text-sm font-medium text-gray-700 mb-1">Recipient Client ID:</label>
+                    <input
+                        type="text"
+                        id="recipient-id"
+                        placeholder="Enter recipient's ID (e.g., from another tab)"
+                        class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    />
+                </div>
+                <!-- New: Subject Input -->
+                <div class="mb-4">
+                    <label for="subject-input" class="block text-sm font-medium text-gray-700 mb-1">Subject:</label>
+                    <input
+                        type="text"
+                        id="subject-input"
+                        placeholder="Enter message subject (optional)"
+                        class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    />
+                </div>
+                <!-- Original: Message Body Input (renamed from message-input) -->
+                <div class="mb-4">
+                    <label for="message-body-input" class="block text-sm font-medium text-gray-700 mb-1">Message Body:</label>
+                    <textarea
+                        id="message-body-input"
+                        placeholder="Type your message..."
+                        rows="3"
+                        class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 resize-y"
+                    ></textarea>
+                </div>
+                <button
+                    id="send-message-btn"
+                    class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75"
+                >
+                    Send Chat Message
+                </button>
+                <button
+                    id="request-notification-permission-btn"
+                    class="w-full mt-4 bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-75"
+                >
+                    Enable Desktop Notifications
+                </button>
+            </div>
+
+            <!-- Right Side: Chat Log -->
+            <div>
+                <h2 class="text-xl font-semibold text-gray-800 mb-4">Chat Log</h2>
+                <div id="chat-log" class="chat-log border border-gray-300 rounded-lg p-4 h-80 overflow-y-auto bg-gray-50">
+                    <p class="text-gray-500 text-center">Waiting for messages...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Get references to DOM elements
+        const connectionStatus = document.getElementById('connection-status');
+        const clientIdDisplay = document.getElementById('client-id');
+        const recipientIdInput = document.getElementById('recipient-id');
+        const subjectInput = document.getElementById('subject-input');
+        const messageBodyInput = document.getElementById('message-body-input');
+        const sendMessageBtn = document.getElementById('send-message-btn');
+        const chatLog = document.getElementById('chat-log');
+        const requestNotificationPermissionBtn = document.getElementById('request-notification-permission-btn'); // New button
+
+        // Generate a unique client ID for this session
+        const CLIENT_ID = crypto.randomUUID();
+        clientIdDisplay.textContent = CLIENT_ID;
+
+        // Define the base URL for your FastAPI backend
+        const FASTAPI_BASE_URL = 'http://localhost:8000';
+
+        // Determine WebSocket URL based on the FastAPI base URL
+        const wsProtocol = FASTAPI_BASE_URL.startsWith('https:') ? 'wss:' : 'ws:';
+        const wsUrl = `${wsProtocol}//${FASTAPI_BASE_URL.split('//')[1]}/ws/chat/${CLIENT_ID}`;
+        let websocket;
+
+        // --- Notification Handling ---
+        function requestNotificationPermission() {
+            // Check if the browser supports notifications
+            if (!("Notification" in window)) {
+                addMessageToChatLog('System', '', 'This browser does not support desktop notifications.', true);
+                return;
+            }
+
+            // Check current permission status
+            if (Notification.permission === "granted") {
+                addMessageToChatLog('System', '', 'Desktop notification permission already granted.', true);
+                return;
+            } else if (Notification.permission === "denied") {
+                addMessageToChatLog('System', '', 'Desktop notification permission denied. Please enable it in your browser settings.', true);
+                return;
+            }
+
+            // Request permission from the user
+            Notification.requestPermission().then(permission => {
+                console.log(permission)
+                if (permission === "granted") {
+                    addMessageToChatLog('System', '', 'Desktop notification permission granted!', true);
+                    // You can send a test notification here if you like
+                    // new Notification("Notifications Enabled", { body: "You will now receive chat notifications." });
+                } else {
+                    addMessageToChatLog('System', '', 'Desktop notification permission denied by user.', true);
+                }
+            });
+        }
+
+        function showDesktopNotification(senderId, subject, body) {
+            if (Notification.permission === "granted") {
+                let notificationTitle = `New message from ${senderId}`;
+                let notificationBody = body;
+
+                if (subject) {
+                    notificationTitle = `${subject} (from ${senderId})`;
+                }
+
+                new Notification(notificationTitle, {
+                    body: notificationBody,
+                    icon: 'https://placehold.co/48x48/007bff/ffffff?text=Chat' // A simple placeholder icon
+                });
+            }
+        }
+        // --- End Notification Handling ---
+
+
+        // Function to update connection status display
+        function updateConnectionStatus(isConnected) {
+            if (isConnected) {
+                connectionStatus.textContent = 'Connected';
+                connectionStatus.classList.remove('bg-red-100', 'text-red-800');
+                connectionStatus.classList.add('bg-green-100', 'text-green-800');
+            } else {
+                connectionStatus.textContent = 'Disconnected';
+                connectionStatus.classList.remove('bg-green-100', 'text-green-800');
+                connectionStatus.classList.add('bg-red-100', 'text-red-800');
+            }
+        }
+
+        // Function to add a message to the chat log
+        function addMessageToChatLog(senderId, subject, body, isIncoming = true) {
+            const messageElement = document.createElement('div');
+            messageElement.className = `p-2 my-1 rounded-md shadow-sm break-words ${isIncoming ? 'bg-gray-200 text-gray-800 self-start' : 'bg-blue-100 text-blue-800 self-end text-right'}`;
+            messageElement.style.maxWidth = '80%';
+            messageElement.style.marginLeft = isIncoming ? '0' : 'auto';
+            messageElement.style.marginRight = isIncoming ? 'auto' : '0';
+
+            const time = new Date().toLocaleTimeString();
+            let contentHtml = '';
+
+            if (subject && body) {
+                contentHtml = `<span class="font-bold">${subject}</span><br>${body}`;
+            } else if (subject) {
+                contentHtml = `<span class="font-bold">${subject}</span>`;
+            } else if (body) {
+                contentHtml = body;
+            } else {
+                contentHtml = 'Empty message';
+            }
+
+            if (isIncoming) {
+                messageElement.innerHTML = `<span class="font-semibold">${senderId}</span> <span class="text-xs text-gray-500">(${time})</span>:<br>${contentHtml}`;
+            } else {
+                messageElement.innerHTML = `<span class="font-semibold">You</span> <span class="text-xs text-blue-500">(${time})</span>:<br>${contentHtml}`;
+            }
+
+            if (chatLog.firstChild && chatLog.firstChild.tagName === 'P' && chatLog.firstChild.textContent === 'Waiting for messages...') {
+                chatLog.innerHTML = '';
+            }
+            chatLog.appendChild(messageElement);
+            chatLog.scrollTop = chatLog.scrollHeight;
+        }
+
+        // Initialize WebSocket connection
+        function connectWebSocket() {
+            websocket = new WebSocket(wsUrl);
+
+            websocket.onopen = () => {
+                console.log('WebSocket connected!');
+                updateConnectionStatus(true);
+                addMessageToChatLog('System', '', 'Connected to chat server.', true);
+            };
+
+            websocket.onmessage = (event) => {
+                console.log('Received message:', event.data);
+                try {
+                    const data = JSON.parse(event.data);
+                    if (data.type === 'chat_message') {
+                        // Display message in chat log
+                        addMessageToChatLog(data.sender_id, data.subject, data.body, true);
+                        // Show desktop notification for incoming chat messages
+                        showDesktopNotification(data.sender_id, data.subject, data.body);
+                    } else if (data.type === 'system_message') {
+                        addMessageToChatLog('System', '', data.message, true);
+                    }
+                } catch (e) {
+                    console.error('Failed to parse message:', event.data, e);
+                    addMessageToChatLog('Error', '', `Received malformed message: ${event.data}`, true);
+                }
+            };
+
+            websocket.onclose = (event) => {
+                console.log('WebSocket disconnected:', event);
+                updateConnectionStatus(false);
+                addMessageToChatLog('System', '', 'Disconnected from chat server. Attempting to reconnect in 5 seconds...', true);
+                setTimeout(connectWebSocket, 5000);
+            };
+
+            websocket.onerror = (error) => {
+                console.error('WebSocket error:', error);
+                addMessageToChatLog('System', '', `WebSocket error: ${error.message}`, true);
+            };
+        }
+
+        // Event listener for the "Send Chat Message" button
+        sendMessageBtn.addEventListener('click', () => {
+            const recipientId = recipientIdInput.value.trim();
+            const subject = subjectInput.value.trim();
+            const messageBody = messageBodyInput.value.trim();
+
+            if (!recipientId) {
+                addMessageToChatLog('System', '', 'Please enter a recipient ID.', true);
+                return;
+            }
+            if (!subject && !messageBody) {
+                addMessageToChatLog('System', '', 'Please enter a subject or a message body.', true);
+                return;
+            }
+
+            if (websocket && websocket.readyState === WebSocket.OPEN) {
+                const chatMessage = {
+                    type: 'chat_message',
+                    sender_id: CLIENT_ID,
+                    recipient_id: recipientId,
+                    subject: subject,
+                    body: messageBody
+                };
+                websocket.send(JSON.stringify(chatMessage));
+                addMessageToChatLog('You', subject, messageBody, false);
+                subjectInput.value = '';
+                messageBodyInput.value = '';
+            } else {
+                addMessageToChatLog('System', '', 'WebSocket is not connected. Please wait or refresh.', true);
+            }
+        });
+
+        // New event listener for the "Enable Desktop Notifications" button
+        requestNotificationPermissionBtn.addEventListener('click', requestNotificationPermission);
+
+        // Initial connection when the page loads
+        document.addEventListener('DOMContentLoaded', connectWebSocket);
+    </script>
+</body>
+</html>

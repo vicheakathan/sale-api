@@ -1,0 +1,2252 @@
+[
+    {
+        "order_id": "3dd560fb-3959-4b1d-9f6d-bc58f9453ee7",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Camera",
+        "quantity": 5,
+        "price": 1,
+        "total_amount": 5,
+        "customer_name": "Brian Smith"
+    },
+    {
+        "order_id": "7c257dbd-2c85-45ab-bb8b-62d7f1f0b0b2",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Tablet",
+        "quantity": 1,
+        "price": 459.4,
+        "total_amount": 459.4,
+        "customer_name": "Edward Jackson"
+    },
+    {
+        "order_id": "eca83d38-cc25-400b-b90a-9343ba8996cb",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Monitor",
+        "quantity": 5,
+        "price": 366.15,
+        "total_amount": 1830.75,
+        "customer_name": "Anthony Terry"
+    },
+    {
+        "order_id": "dbabe295-3cce-4e8a-8643-496bb42523b8",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartphone",
+        "quantity": 4,
+        "price": 786.29,
+        "total_amount": 3145.16,
+        "customer_name": "John Smith"
+    },
+    {
+        "order_id": "146fa2c2-52c0-447e-8410-c0429621257a",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Mouse",
+        "quantity": 2,
+        "price": 34.48,
+        "total_amount": 68.96,
+        "customer_name": "Alexander Vazquez"
+    },
+    {
+        "order_id": "dc434285-c90a-472a-8d77-b26ee26d490e",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Monitor",
+        "quantity": 3,
+        "price": 399.46,
+        "total_amount": 1198.38,
+        "customer_name": "Samuel Mccarthy"
+    },
+    {
+        "order_id": "047de27b-8315-48d6-9881-fe012fe2179b",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Camera",
+        "quantity": 3,
+        "price": 931.39,
+        "total_amount": 2794.17,
+        "customer_name": "Kendra Williams"
+    },
+    {
+        "order_id": "dac3fa62-0ca8-4cd3-ab26-8ec14cd593e8",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Laptop",
+        "quantity": 2,
+        "price": 1251.42,
+        "total_amount": 2502.84,
+        "customer_name": "Bradley Harris"
+    },
+    {
+        "order_id": "7cd67a9b-aa7b-4f93-8e77-580516b04027",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Keyboard",
+        "quantity": 4,
+        "price": 77.86,
+        "total_amount": 311.44,
+        "customer_name": "Patricia Graham"
+    },
+    {
+        "order_id": "8d7a09fe-eb9a-4d33-9bb7-3adeae0837d7",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Mouse",
+        "quantity": 3,
+        "price": 73.58,
+        "total_amount": 220.74,
+        "customer_name": "Kimberly Meyer"
+    },
+    {
+        "order_id": "22f50435-6f36-4ab5-8e71-f7eae1415aa3",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Camera",
+        "quantity": 1,
+        "price": 924.81,
+        "total_amount": 924.81,
+        "customer_name": "Taylor Stevens"
+    },
+    {
+        "order_id": "86b9ab29-f5c2-4730-aefc-6364461992a9",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Laptop",
+        "quantity": 4,
+        "price": 1279.5,
+        "total_amount": 5118.0,
+        "customer_name": "Jennifer Turner"
+    },
+    {
+        "order_id": "b02e13de-a9d9-4122-800e-881853d4d1b9",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Headphones",
+        "quantity": 3,
+        "price": 234.58,
+        "total_amount": 703.74,
+        "customer_name": "Robert Lee"
+    },
+    {
+        "order_id": "a4ff9ef8-d969-457d-b73a-ef8517d72d0b",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Monitor",
+        "quantity": 5,
+        "price": 304.82,
+        "total_amount": 1524.1,
+        "customer_name": "Chris Reynolds"
+    },
+    {
+        "order_id": "64f2c731-2b08-428c-9d34-e78d155c7e45",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Monitor",
+        "quantity": 3,
+        "price": 391.54,
+        "total_amount": 1174.62,
+        "customer_name": "Angela Deleon"
+    },
+    {
+        "order_id": "3d41964a-2690-4e2f-ade3-16ac3b215f45",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartwatch",
+        "quantity": 1,
+        "price": 319.48,
+        "total_amount": 319.48,
+        "customer_name": "Emily Tran"
+    },
+    {
+        "order_id": "d9b6e059-f3f6-41c5-ba95-c60b35fa2503",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartphone",
+        "quantity": 4,
+        "price": 832.04,
+        "total_amount": 3328.16,
+        "customer_name": "Richard Watkins"
+    },
+    {
+        "order_id": "b769d860-551f-4865-9b3d-c21ef4034342",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Headphones",
+        "quantity": 4,
+        "price": 191.64,
+        "total_amount": 766.56,
+        "customer_name": "Amanda Delgado"
+    },
+    {
+        "order_id": "bd950a97-1c55-460a-8578-a9c64d43f09b",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Headphones",
+        "quantity": 1,
+        "price": 155.5,
+        "total_amount": 155.5,
+        "customer_name": "Annette Allen"
+    },
+    {
+        "order_id": "9a0487ae-e780-4d16-880c-db7d0478094e",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Monitor",
+        "quantity": 4,
+        "price": 354.41,
+        "total_amount": 1417.64,
+        "customer_name": "Katie Evans"
+    },
+    {
+        "order_id": "398e6fcc-3301-4e59-beac-ed633d493819",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Monitor",
+        "quantity": 3,
+        "price": 358.49,
+        "total_amount": 1075.47,
+        "customer_name": "Gina Gibson"
+    },
+    {
+        "order_id": "4139d1ce-543c-420f-8d38-57368ad90740",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Camera",
+        "quantity": 2,
+        "price": 864.22,
+        "total_amount": 1728.44,
+        "customer_name": "Matthew Jones"
+    },
+    {
+        "order_id": "dcf67a47-7b8b-42fc-be75-17d74d2e31a5",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartwatch",
+        "quantity": 4,
+        "price": 333.83,
+        "total_amount": 1335.32,
+        "customer_name": "Kathy Gray"
+    },
+    {
+        "order_id": "a3b8983a-37cc-4336-a08e-319672d53e52",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Monitor",
+        "quantity": 4,
+        "price": 341.27,
+        "total_amount": 1365.08,
+        "customer_name": "Lindsay Bullock"
+    },
+    {
+        "order_id": "aea6b818-b1c6-41b0-b998-372d04934cc4",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Speaker",
+        "quantity": 5,
+        "price": 148.21,
+        "total_amount": 741.05,
+        "customer_name": "Larry Hays"
+    },
+    {
+        "order_id": "01199787-a10c-4e8a-af78-9bbea9a4461d",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Monitor",
+        "quantity": 4,
+        "price": 319.13,
+        "total_amount": 1276.52,
+        "customer_name": "Andrea Hayden"
+    },
+    {
+        "order_id": "246b97c4-7593-4ebf-94f3-f54506d9d9aa",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Camera",
+        "quantity": 3,
+        "price": 881.73,
+        "total_amount": 2645.19,
+        "customer_name": "Margaret Torres"
+    },
+    {
+        "order_id": "3ff40e5a-6836-4777-9456-8c2dfb923f4a",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Headphones",
+        "quantity": 5,
+        "price": 202.63,
+        "total_amount": 1013.15,
+        "customer_name": "William Hunter"
+    },
+    {
+        "order_id": "909874ff-90a7-429a-83d1-ef8359f35d32",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Headphones",
+        "quantity": 1,
+        "price": 218.07,
+        "total_amount": 218.07,
+        "customer_name": "Courtney Berg"
+    },
+    {
+        "order_id": "8cfed7a1-0306-42c4-9502-c955e1d9b380",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Laptop",
+        "quantity": 3,
+        "price": 1267.86,
+        "total_amount": 3803.58,
+        "customer_name": "Randall Swanson"
+    },
+    {
+        "order_id": "1ea757ba-dd70-42f3-a47b-304892e0d052",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Headphones",
+        "quantity": 4,
+        "price": 173.13,
+        "total_amount": 692.52,
+        "customer_name": "Timothy Costa"
+    },
+    {
+        "order_id": "79decd3c-6c76-4bbf-80a5-c4a5c7fc622d",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Mouse",
+        "quantity": 1,
+        "price": 52.65,
+        "total_amount": 52.65,
+        "customer_name": "Michael Schultz"
+    },
+    {
+        "order_id": "0ac822d4-6ffb-4585-8906-62e9e24b2caa",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Monitor",
+        "quantity": 4,
+        "price": 340.28,
+        "total_amount": 1361.12,
+        "customer_name": "Brian Bennett"
+    },
+    {
+        "order_id": "395dd52d-7444-41ae-885f-d984ad48c35e",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Camera",
+        "quantity": 1,
+        "price": 918.86,
+        "total_amount": 918.86,
+        "customer_name": "Erika Goodwin"
+    },
+    {
+        "order_id": "de99045d-1305-4c27-9550-261e1b713791",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Keyboard",
+        "quantity": 1,
+        "price": 107.69,
+        "total_amount": 107.69,
+        "customer_name": "Jonathan Smith"
+    },
+    {
+        "order_id": "9ad79240-b720-48b7-9bb4-f04ba3e451d9",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Headphones",
+        "quantity": 2,
+        "price": 165.33,
+        "total_amount": 330.66,
+        "customer_name": "Gregory Manning"
+    },
+    {
+        "order_id": "5e1c9fc2-8e86-4024-b440-801e7f6a101e",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartphone",
+        "quantity": 5,
+        "price": 790.69,
+        "total_amount": 3953.45,
+        "customer_name": "Travis West"
+    },
+    {
+        "order_id": "da588a30-4204-4c7b-b052-783d0f160978",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Camera",
+        "quantity": 3,
+        "price": 944.82,
+        "total_amount": 2834.46,
+        "customer_name": "Anthony Baker"
+    },
+    {
+        "order_id": "2c716470-3120-40e1-9356-ff732e2a920a",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Tablet",
+        "quantity": 1,
+        "price": 515.52,
+        "total_amount": 515.52,
+        "customer_name": "Shannon Thompson"
+    },
+    {
+        "order_id": "dce0f55f-38db-4df4-ae72-fa38b28b4374",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Laptop",
+        "quantity": 1,
+        "price": 1267.32,
+        "total_amount": 1267.32,
+        "customer_name": "Jennifer Hogan"
+    },
+    {
+        "order_id": "3eab86bf-852e-47d0-a132-5e01a13f5a11",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartphone",
+        "quantity": 1,
+        "price": 823.06,
+        "total_amount": 823.06,
+        "customer_name": "Regina Benton"
+    },
+    {
+        "order_id": "15c8dd3f-382c-4ffd-a9b6-493859aecb1a",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartwatch",
+        "quantity": 1,
+        "price": 346.37,
+        "total_amount": 346.37,
+        "customer_name": "Samantha Mahoney"
+    },
+    {
+        "order_id": "b5826c3c-5df1-4715-8599-a02fe7902fa4",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Keyboard",
+        "quantity": 1,
+        "price": 58.57,
+        "total_amount": 58.57,
+        "customer_name": "Jennifer Carlson"
+    },
+    {
+        "order_id": "b5e27373-7697-465f-91a5-f769d1dfa598",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartphone",
+        "quantity": 1,
+        "price": 827.2,
+        "total_amount": 827.2,
+        "customer_name": "Briana Hall"
+    },
+    {
+        "order_id": "389b0eb9-a133-436a-acda-de391ff4ee5a",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartphone",
+        "quantity": 4,
+        "price": 755.96,
+        "total_amount": 3023.84,
+        "customer_name": "Peter Gordon"
+    },
+    {
+        "order_id": "3b621342-dd1e-4114-bdd5-47a8ee72d1b0",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartphone",
+        "quantity": 4,
+        "price": 751.95,
+        "total_amount": 3007.8,
+        "customer_name": "Kevin Newman"
+    },
+    {
+        "order_id": "33796b61-0db8-4bc5-9033-b27c7f333e9f",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartwatch",
+        "quantity": 3,
+        "price": 332.95,
+        "total_amount": 998.85,
+        "customer_name": "Christopher Payne"
+    },
+    {
+        "order_id": "1def3a98-f528-493c-b973-f45a601ac135",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartphone",
+        "quantity": 5,
+        "price": 817.22,
+        "total_amount": 4086.1,
+        "customer_name": "Becky Morris"
+    },
+    {
+        "order_id": "e7d75839-7e2a-4f6e-a6f3-c4d54f5e021d",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Mouse",
+        "quantity": 2,
+        "price": 46.2,
+        "total_amount": 92.4,
+        "customer_name": "Scott Howard"
+    },
+    {
+        "order_id": "04e9a416-5cbf-4fa4-89b5-d01eba46bc34",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartphone",
+        "quantity": 4,
+        "price": 765.08,
+        "total_amount": 3060.32,
+        "customer_name": "Joel Farrell"
+    },
+    {
+        "order_id": "568dc02a-9e78-4709-b495-cca0e9a9a137",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Mouse",
+        "quantity": 1,
+        "price": 77.98,
+        "total_amount": 77.98,
+        "customer_name": "Thomas Weber"
+    },
+    {
+        "order_id": "08e75d3b-0e32-4366-9f61-3baee671b579",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Mouse",
+        "quantity": 1,
+        "price": 87.63,
+        "total_amount": 87.63,
+        "customer_name": "Christine Banks"
+    },
+    {
+        "order_id": "f6b50c59-d866-42a6-87fd-9b5854f7c27f",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Speaker",
+        "quantity": 1,
+        "price": 104.98,
+        "total_amount": 104.98,
+        "customer_name": "Hannah Hodges"
+    },
+    {
+        "order_id": "c05c77fa-f295-4fd6-ae21-2ab20ee97a87",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Monitor",
+        "quantity": 5,
+        "price": 311.31,
+        "total_amount": 1556.55,
+        "customer_name": "James Dixon"
+    },
+    {
+        "order_id": "f6b5646f-ef66-4e97-9b7c-897e4b4f916a",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Keyboard",
+        "quantity": 4,
+        "price": 55.91,
+        "total_amount": 223.64,
+        "customer_name": "Victoria Wilson"
+    },
+    {
+        "order_id": "77e20106-b5fa-4666-ae9d-55e1fe61a8c1",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Keyboard",
+        "quantity": 2,
+        "price": 87.39,
+        "total_amount": 174.78,
+        "customer_name": "Suzanne Martin"
+    },
+    {
+        "order_id": "e1e34d18-37c7-4d23-a7a2-91722629508c",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Mouse",
+        "quantity": 3,
+        "price": 46.56,
+        "total_amount": 139.68,
+        "customer_name": "Johnny Morales"
+    },
+    {
+        "order_id": "3d4d7c0b-0b6e-4181-bf8f-6e7550d77829",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartphone",
+        "quantity": 3,
+        "price": 799.33,
+        "total_amount": 2397.99,
+        "customer_name": "Carla Young"
+    },
+    {
+        "order_id": "9737a2a9-8ba9-4316-8137-8fa31d1b76cd",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Headphones",
+        "quantity": 5,
+        "price": 244.19,
+        "total_amount": 1220.95,
+        "customer_name": "Alan Young"
+    },
+    {
+        "order_id": "ceed4332-6a89-451c-be9f-ac3b97255601",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Speaker",
+        "quantity": 4,
+        "price": 120.47,
+        "total_amount": 481.88,
+        "customer_name": "Janet Morton"
+    },
+    {
+        "order_id": "7c0735ac-5e4b-4e3e-83a3-04765a700a45",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Speaker",
+        "quantity": 1,
+        "price": 111.35,
+        "total_amount": 111.35,
+        "customer_name": "Danielle Thompson"
+    },
+    {
+        "order_id": "db570540-9657-4696-b8f9-6fc6fc184612",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartphone",
+        "quantity": 1,
+        "price": 807.65,
+        "total_amount": 807.65,
+        "customer_name": "Tammy Rodriguez"
+    },
+    {
+        "order_id": "7aed807f-9184-4f70-89a2-c59e92f150a0",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Camera",
+        "quantity": 4,
+        "price": 860.59,
+        "total_amount": 3442.36,
+        "customer_name": "Cory Duffy"
+    },
+    {
+        "order_id": "3c862024-3df2-4c3c-bb1c-e0b46cffa5cb",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Monitor",
+        "quantity": 1,
+        "price": 387.98,
+        "total_amount": 387.98,
+        "customer_name": "Tammy Roberts"
+    },
+    {
+        "order_id": "928e6411-eb0c-4c90-8d48-ce39bac8f3b3",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartwatch",
+        "quantity": 5,
+        "price": 340.68,
+        "total_amount": 1703.4,
+        "customer_name": "Amanda Haas"
+    },
+    {
+        "order_id": "c96f1ab4-17ef-458e-ae6a-055235a9724c",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartphone",
+        "quantity": 3,
+        "price": 771.88,
+        "total_amount": 2315.64,
+        "customer_name": "Gregory James"
+    },
+    {
+        "order_id": "8b8b59ca-68b0-4913-80f3-e8d9aa6cfb04",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Monitor",
+        "quantity": 4,
+        "price": 392.33,
+        "total_amount": 1569.32,
+        "customer_name": "Craig Smith"
+    },
+    {
+        "order_id": "ffe9a8b9-2c66-4ae5-a90b-5f1fd5afd9ff",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Monitor",
+        "quantity": 5,
+        "price": 301.6,
+        "total_amount": 1508.0,
+        "customer_name": "Vanessa Melendez"
+    },
+    {
+        "order_id": "dff928b2-321a-4ede-a655-1275a5b9ef55",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Tablet",
+        "quantity": 3,
+        "price": 520.03,
+        "total_amount": 1560.09,
+        "customer_name": "Daniel Johnson"
+    },
+    {
+        "order_id": "c1a4f1be-8084-4ebb-b4b9-8ac334910766",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Monitor",
+        "quantity": 5,
+        "price": 363.38,
+        "total_amount": 1816.9,
+        "customer_name": "Steven Singh"
+    },
+    {
+        "order_id": "d6746d41-a5db-478d-a494-655ddc11a8de",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartphone",
+        "quantity": 5,
+        "price": 833.88,
+        "total_amount": 4169.4,
+        "customer_name": "Rachael Davis"
+    },
+    {
+        "order_id": "a2eecced-8afa-42e2-9879-1aa350b83f49",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Tablet",
+        "quantity": 3,
+        "price": 476.57,
+        "total_amount": 1429.71,
+        "customer_name": "Angela Thompson"
+    },
+    {
+        "order_id": "9f53791d-6c64-412a-9125-b990f593ed08",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Tablet",
+        "quantity": 5,
+        "price": 542.53,
+        "total_amount": 2712.65,
+        "customer_name": "Timothy Miles"
+    },
+    {
+        "order_id": "3d6c5c0b-c96f-4f6d-9d6a-fb9750829f3b",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartphone",
+        "quantity": 4,
+        "price": 759.88,
+        "total_amount": 3039.52,
+        "customer_name": "Natalie Hunt"
+    },
+    {
+        "order_id": "2e24de81-8fb6-4427-84db-eee27381b263",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Tablet",
+        "quantity": 3,
+        "price": 524.5,
+        "total_amount": 1573.5,
+        "customer_name": "Derrick Patterson"
+    },
+    {
+        "order_id": "53b9b255-6589-4f0a-895c-57173a3bbb52",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Laptop",
+        "quantity": 4,
+        "price": 1342.39,
+        "total_amount": 5369.56,
+        "customer_name": "Kayla Chang"
+    },
+    {
+        "order_id": "ac763b4a-ff3a-4d57-b83f-c0f1c63a77ec",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Monitor",
+        "quantity": 4,
+        "price": 336.55,
+        "total_amount": 1346.2,
+        "customer_name": "Sabrina Thompson"
+    },
+    {
+        "order_id": "3ff6c217-6340-4e9d-a6a8-7e4e95bae451",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Tablet",
+        "quantity": 3,
+        "price": 474.2,
+        "total_amount": 1422.6,
+        "customer_name": "John Joyce"
+    },
+    {
+        "order_id": "956fa5b0-ccf6-4576-8626-2a48161a97df",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartphone",
+        "quantity": 1,
+        "price": 798.83,
+        "total_amount": 798.83,
+        "customer_name": "Suzanne Parker"
+    },
+    {
+        "order_id": "d7748ebc-a5c0-4983-aa9d-40937d05a0ee",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Mouse",
+        "quantity": 3,
+        "price": 26.38,
+        "total_amount": 79.14,
+        "customer_name": "Mckenzie Fitzpatrick"
+    },
+    {
+        "order_id": "3782fae1-2f6a-40e5-8c39-3c9f99204734",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartwatch",
+        "quantity": 2,
+        "price": 320.33,
+        "total_amount": 640.66,
+        "customer_name": "Douglas Davis"
+    },
+    {
+        "order_id": "a5fb1b18-f6ac-42ac-8b00-0eb492d33eec",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Mouse",
+        "quantity": 4,
+        "price": 55.59,
+        "total_amount": 222.36,
+        "customer_name": "Amber Dillon"
+    },
+    {
+        "order_id": "3f676b48-9ae7-435d-91b4-573b2b885ebc",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Mouse",
+        "quantity": 1,
+        "price": 76.98,
+        "total_amount": 76.98,
+        "customer_name": "Andrew Watson"
+    },
+    {
+        "order_id": "76319872-d87a-4849-9078-6ceaa1ab575c",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Speaker",
+        "quantity": 4,
+        "price": 152.08,
+        "total_amount": 608.32,
+        "customer_name": "Jeremy Norman"
+    },
+    {
+        "order_id": "a6989cf2-9ea4-45a4-b5b9-736c1ff88eee",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Mouse",
+        "quantity": 3,
+        "price": 38.68,
+        "total_amount": 116.04,
+        "customer_name": "Phillip Cortez"
+    },
+    {
+        "order_id": "c8120f7c-2263-4b09-b73d-6e6f8892109f",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Headphones",
+        "quantity": 5,
+        "price": 218.04,
+        "total_amount": 1090.2,
+        "customer_name": "Grant Wright"
+    },
+    {
+        "order_id": "9d14ac5d-3413-4fac-ad8a-1456d563b5d9",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartphone",
+        "quantity": 3,
+        "price": 770.0,
+        "total_amount": 2310.0,
+        "customer_name": "Jessica Green"
+    },
+    {
+        "order_id": "35530f05-ad67-44f4-a04d-00f711ec24a8",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Monitor",
+        "quantity": 3,
+        "price": 380.88,
+        "total_amount": 1142.64,
+        "customer_name": "Vicki Moreno"
+    },
+    {
+        "order_id": "03acb9a6-286c-43e4-b1e5-1ab6cccbef9c",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Tablet",
+        "quantity": 1,
+        "price": 462.52,
+        "total_amount": 462.52,
+        "customer_name": "Phyllis Bridges"
+    },
+    {
+        "order_id": "85bc42de-73a4-4871-b687-4885594e76bf",
+        "timestamp": "2025-07-20 05:50AM",
+        "item": "Smartwatch",
+        "quantity": 3,
+        "price": 262.25,
+        "total_amount": 786.75,
+        "customer_name": "David Lopez"
+    },
+    {
+        "order_id": "b826b7b5-794b-46ce-bb32-702b7fae65a1",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Monitor",
+        "quantity": 3,
+        "price": 325.63,
+        "total_amount": 976.89,
+        "customer_name": "Mark Kirby"
+    },
+    {
+        "order_id": "a2fb35f9-d767-4631-8d89-9df8f6fd7dd0",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Speaker",
+        "quantity": 4,
+        "price": 174.31,
+        "total_amount": 697.24,
+        "customer_name": "Joseph Stevens"
+    },
+    {
+        "order_id": "17d8bc50-ec39-4b07-baee-14966c5aec1e",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Camera",
+        "quantity": 1,
+        "price": 895.24,
+        "total_amount": 895.24,
+        "customer_name": "Jonathan Rosales"
+    },
+    {
+        "order_id": "90a6968b-abd0-4c96-bca4-44aef693027b",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartphone",
+        "quantity": 1,
+        "price": 830.23,
+        "total_amount": 830.23,
+        "customer_name": "Seth Jones"
+    },
+    {
+        "order_id": "06240537-c62b-47af-882b-7bccccb69e1a",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Tablet",
+        "quantity": 4,
+        "price": 536.82,
+        "total_amount": 2147.28,
+        "customer_name": "Whitney Little"
+    },
+    {
+        "order_id": "118b020e-3c03-40e0-9051-58f99b4fec43",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartphone",
+        "quantity": 1,
+        "price": 816.05,
+        "total_amount": 816.05,
+        "customer_name": "Ryan Ware"
+    },
+    {
+        "order_id": "cdaecc24-6ef3-4805-8d6a-9484cc5c39b3",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Keyboard",
+        "quantity": 3,
+        "price": 53.6,
+        "total_amount": 160.8,
+        "customer_name": "Elizabeth Gray"
+    },
+    {
+        "order_id": "c649ae7e-63bf-4d64-885f-cfc6a93dda60",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Monitor",
+        "quantity": 1,
+        "price": 390.64,
+        "total_amount": 390.64,
+        "customer_name": "Joseph Woods"
+    },
+    {
+        "order_id": "a39d8b81-90f5-4850-ba6f-8551f73b6719",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Monitor",
+        "quantity": 5,
+        "price": 386.94,
+        "total_amount": 1934.7,
+        "customer_name": "Tammy Ali"
+    },
+    {
+        "order_id": "579b89c0-51dd-40d4-9fee-bb8c9d5285e9",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Camera",
+        "quantity": 3,
+        "price": 872.27,
+        "total_amount": 2616.81,
+        "customer_name": "James Garcia"
+    },
+    {
+        "order_id": "9d151814-d7be-4ed1-b4ef-5ff92ab91d86",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Camera",
+        "quantity": 5,
+        "price": 875.95,
+        "total_amount": 4379.75,
+        "customer_name": "Brian Smith"
+    },
+    {
+        "order_id": "ecc51fee-7fd7-4ea5-bbf9-93095ac146ad",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Tablet",
+        "quantity": 1,
+        "price": 459.4,
+        "total_amount": 459.4,
+        "customer_name": "Edward Jackson"
+    },
+    {
+        "order_id": "0d14703a-f72b-4596-b35f-43c07eeb8f69",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Monitor",
+        "quantity": 5,
+        "price": 366.15,
+        "total_amount": 1830.75,
+        "customer_name": "Anthony Terry"
+    },
+    {
+        "order_id": "94d8183a-7576-4d29-8314-5f1289567a65",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartphone",
+        "quantity": 4,
+        "price": 786.29,
+        "total_amount": 3145.16,
+        "customer_name": "John Smith"
+    },
+    {
+        "order_id": "351e09dd-16eb-4b67-ab7b-ce7fcaf61147",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Mouse",
+        "quantity": 2,
+        "price": 34.48,
+        "total_amount": 68.96,
+        "customer_name": "Alexander Vazquez"
+    },
+    {
+        "order_id": "b5d0e717-0a17-4008-8a34-b946ef6aab45",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Monitor",
+        "quantity": 3,
+        "price": 399.46,
+        "total_amount": 1198.38,
+        "customer_name": "Samuel Mccarthy"
+    },
+    {
+        "order_id": "0a756ddb-c952-4bb9-a233-81e9ae221d4d",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Camera",
+        "quantity": 3,
+        "price": 931.39,
+        "total_amount": 2794.17,
+        "customer_name": "Kendra Williams"
+    },
+    {
+        "order_id": "ef9a30c5-94b7-4eb6-9c7b-cf7e9efe5cd9",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Laptop",
+        "quantity": 2,
+        "price": 1251.42,
+        "total_amount": 2502.84,
+        "customer_name": "Bradley Harris"
+    },
+    {
+        "order_id": "ab940b1e-dc48-4c0d-ad2e-6cac0497eb7c",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Keyboard",
+        "quantity": 4,
+        "price": 77.86,
+        "total_amount": 311.44,
+        "customer_name": "Patricia Graham"
+    },
+    {
+        "order_id": "b53e2a3f-cf4f-4f28-87bb-bd5657838af8",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Mouse",
+        "quantity": 3,
+        "price": 73.58,
+        "total_amount": 220.74,
+        "customer_name": "Kimberly Meyer"
+    },
+    {
+        "order_id": "052f07b1-b30a-44bb-b0a2-82c859a0825e",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Camera",
+        "quantity": 1,
+        "price": 924.81,
+        "total_amount": 924.81,
+        "customer_name": "Taylor Stevens"
+    },
+    {
+        "order_id": "2573eee4-6dd9-4ade-a02a-2c21eb2bac60",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Laptop",
+        "quantity": 4,
+        "price": 1279.5,
+        "total_amount": 5118.0,
+        "customer_name": "Jennifer Turner"
+    },
+    {
+        "order_id": "65791279-cc12-45b6-bd4c-ab7a2742e9eb",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Headphones",
+        "quantity": 3,
+        "price": 234.58,
+        "total_amount": 703.74,
+        "customer_name": "Robert Lee"
+    },
+    {
+        "order_id": "ac1af828-136a-4fb1-9d5d-cea9c407e073",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Monitor",
+        "quantity": 5,
+        "price": 304.82,
+        "total_amount": 1524.1,
+        "customer_name": "Chris Reynolds"
+    },
+    {
+        "order_id": "2e326dd3-c0b2-4cad-867e-3bf6b6efef27",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Monitor",
+        "quantity": 3,
+        "price": 391.54,
+        "total_amount": 1174.62,
+        "customer_name": "Angela Deleon"
+    },
+    {
+        "order_id": "a1d4f024-bf5f-4ce3-b514-e8def3e2cd19",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartwatch",
+        "quantity": 1,
+        "price": 319.48,
+        "total_amount": 319.48,
+        "customer_name": "Emily Tran"
+    },
+    {
+        "order_id": "ff56c52f-0504-4b26-91ba-e417b0d85439",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartphone",
+        "quantity": 4,
+        "price": 832.04,
+        "total_amount": 3328.16,
+        "customer_name": "Richard Watkins"
+    },
+    {
+        "order_id": "d410989c-657d-4aa5-bec1-878079cf87e6",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Headphones",
+        "quantity": 4,
+        "price": 191.64,
+        "total_amount": 766.56,
+        "customer_name": "Amanda Delgado"
+    },
+    {
+        "order_id": "b6ef95c5-b062-47a8-aed0-aba47e4d5ebb",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Headphones",
+        "quantity": 1,
+        "price": 155.5,
+        "total_amount": 155.5,
+        "customer_name": "Annette Allen"
+    },
+    {
+        "order_id": "9460a2b4-f34a-4b5a-be70-2154227ccced",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Monitor",
+        "quantity": 4,
+        "price": 354.41,
+        "total_amount": 1417.64,
+        "customer_name": "Katie Evans"
+    },
+    {
+        "order_id": "0681bc29-a59b-4e6a-97d0-e6b69bc4733a",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Monitor",
+        "quantity": 3,
+        "price": 358.49,
+        "total_amount": 1075.47,
+        "customer_name": "Gina Gibson"
+    },
+    {
+        "order_id": "52847f5c-e7b2-4e6d-9404-dbc67d12c939",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Camera",
+        "quantity": 2,
+        "price": 864.22,
+        "total_amount": 1728.44,
+        "customer_name": "Matthew Jones"
+    },
+    {
+        "order_id": "9b000873-36d1-4305-9909-44cf231cb200",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartwatch",
+        "quantity": 4,
+        "price": 333.83,
+        "total_amount": 1335.32,
+        "customer_name": "Kathy Gray"
+    },
+    {
+        "order_id": "a272a828-c1dc-4107-a5f7-2bb5d8c7d664",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Monitor",
+        "quantity": 4,
+        "price": 341.27,
+        "total_amount": 1365.08,
+        "customer_name": "Lindsay Bullock"
+    },
+    {
+        "order_id": "a1542d64-9d57-48a7-9caa-9a9337dc91e2",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Speaker",
+        "quantity": 5,
+        "price": 148.21,
+        "total_amount": 741.05,
+        "customer_name": "Larry Hays"
+    },
+    {
+        "order_id": "f4e27655-ee11-4ea5-b27c-5e66a9efa968",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Monitor",
+        "quantity": 4,
+        "price": 319.13,
+        "total_amount": 1276.52,
+        "customer_name": "Andrea Hayden"
+    },
+    {
+        "order_id": "4137c55d-b7c0-4783-a2b3-2d81011ff0a6",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Camera",
+        "quantity": 3,
+        "price": 881.73,
+        "total_amount": 2645.19,
+        "customer_name": "Margaret Torres"
+    },
+    {
+        "order_id": "1bb3b978-040a-4cf7-9a0a-b28f8c4e0990",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Headphones",
+        "quantity": 5,
+        "price": 202.63,
+        "total_amount": 1013.15,
+        "customer_name": "William Hunter"
+    },
+    {
+        "order_id": "c80ca19b-5140-4a77-a257-5912b1a392d4",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Headphones",
+        "quantity": 1,
+        "price": 218.07,
+        "total_amount": 218.07,
+        "customer_name": "Courtney Berg"
+    },
+    {
+        "order_id": "e870c8ee-f89e-42d6-a943-36f12f02c9af",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Laptop",
+        "quantity": 3,
+        "price": 1267.86,
+        "total_amount": 3803.58,
+        "customer_name": "Randall Swanson"
+    },
+    {
+        "order_id": "b20b424a-b8e2-4455-842f-a4c0866cac35",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Headphones",
+        "quantity": 4,
+        "price": 173.13,
+        "total_amount": 692.52,
+        "customer_name": "Timothy Costa"
+    },
+    {
+        "order_id": "22403476-f205-4a99-ba3c-4a6f4bab0e7c",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Mouse",
+        "quantity": 1,
+        "price": 52.65,
+        "total_amount": 52.65,
+        "customer_name": "Michael Schultz"
+    },
+    {
+        "order_id": "475de0ae-d844-4df9-93a0-8c6882a3bfc0",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Monitor",
+        "quantity": 4,
+        "price": 340.28,
+        "total_amount": 1361.12,
+        "customer_name": "Brian Bennett"
+    },
+    {
+        "order_id": "d1ae9ef1-72da-4583-b0e6-bb3f46cd98d0",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Camera",
+        "quantity": 1,
+        "price": 918.86,
+        "total_amount": 918.86,
+        "customer_name": "Erika Goodwin"
+    },
+    {
+        "order_id": "d7dd8863-7da2-4692-a39f-85297440c103",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Keyboard",
+        "quantity": 1,
+        "price": 107.69,
+        "total_amount": 107.69,
+        "customer_name": "Jonathan Smith"
+    },
+    {
+        "order_id": "f56c7bcd-828c-4638-a03e-ddbd60b5a3b1",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Headphones",
+        "quantity": 2,
+        "price": 165.33,
+        "total_amount": 330.66,
+        "customer_name": "Gregory Manning"
+    },
+    {
+        "order_id": "ebfce74b-85ec-4f4b-bb72-04075f2c629f",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartphone",
+        "quantity": 5,
+        "price": 790.69,
+        "total_amount": 3953.45,
+        "customer_name": "Travis West"
+    },
+    {
+        "order_id": "dd205604-50ca-497f-a35f-46ee6245261f",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Camera",
+        "quantity": 3,
+        "price": 944.82,
+        "total_amount": 2834.46,
+        "customer_name": "Anthony Baker"
+    },
+    {
+        "order_id": "9f92f335-7e01-4b28-8347-61df36f2fe54",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Tablet",
+        "quantity": 1,
+        "price": 515.52,
+        "total_amount": 515.52,
+        "customer_name": "Shannon Thompson"
+    },
+    {
+        "order_id": "d7ba0a32-b51a-43c3-a86b-5f19016f7e2a",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Laptop",
+        "quantity": 1,
+        "price": 1267.32,
+        "total_amount": 1267.32,
+        "customer_name": "Jennifer Hogan"
+    },
+    {
+        "order_id": "de7b126e-9591-45c3-b3f2-ce7a8a11bfa9",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartphone",
+        "quantity": 1,
+        "price": 823.06,
+        "total_amount": 823.06,
+        "customer_name": "Regina Benton"
+    },
+    {
+        "order_id": "a21ef47a-ed9c-4f1b-ae5c-4b25f19b75c6",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartwatch",
+        "quantity": 1,
+        "price": 346.37,
+        "total_amount": 346.37,
+        "customer_name": "Samantha Mahoney"
+    },
+    {
+        "order_id": "9d5b7e12-8273-456e-8abf-5d13496067a7",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Keyboard",
+        "quantity": 1,
+        "price": 58.57,
+        "total_amount": 58.57,
+        "customer_name": "Jennifer Carlson"
+    },
+    {
+        "order_id": "457b0e87-045c-4ed7-97bd-99c297dd8627",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartphone",
+        "quantity": 1,
+        "price": 827.2,
+        "total_amount": 827.2,
+        "customer_name": "Briana Hall"
+    },
+    {
+        "order_id": "8068b9a5-0311-4de0-829f-2b4e846340db",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartphone",
+        "quantity": 4,
+        "price": 755.96,
+        "total_amount": 3023.84,
+        "customer_name": "Peter Gordon"
+    },
+    {
+        "order_id": "4740e54e-ffff-4dbb-af88-cb456bba1c18",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartphone",
+        "quantity": 4,
+        "price": 751.95,
+        "total_amount": 3007.8,
+        "customer_name": "Kevin Newman"
+    },
+    {
+        "order_id": "edb9a109-251a-4aa2-a3ee-bccd7511b9b3",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartwatch",
+        "quantity": 3,
+        "price": 332.95,
+        "total_amount": 998.85,
+        "customer_name": "Christopher Payne"
+    },
+    {
+        "order_id": "035163b9-1b1d-499f-9aa5-090db0e29bf2",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartphone",
+        "quantity": 5,
+        "price": 817.22,
+        "total_amount": 4086.1,
+        "customer_name": "Becky Morris"
+    },
+    {
+        "order_id": "54047ec5-d9cd-4210-aeb3-ef0e940cdae1",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Mouse",
+        "quantity": 2,
+        "price": 46.2,
+        "total_amount": 92.4,
+        "customer_name": "Scott Howard"
+    },
+    {
+        "order_id": "18b09598-eeb2-488a-a334-bf985dbe81e3",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartphone",
+        "quantity": 4,
+        "price": 765.08,
+        "total_amount": 3060.32,
+        "customer_name": "Joel Farrell"
+    },
+    {
+        "order_id": "810eeae4-728c-401e-b906-d7b7adc1e06f",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Mouse",
+        "quantity": 1,
+        "price": 77.98,
+        "total_amount": 77.98,
+        "customer_name": "Thomas Weber"
+    },
+    {
+        "order_id": "61b86a68-19da-4d01-933d-fa2e428d19c2",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Mouse",
+        "quantity": 1,
+        "price": 87.63,
+        "total_amount": 87.63,
+        "customer_name": "Christine Banks"
+    },
+    {
+        "order_id": "159c5d79-f478-4f3f-adeb-7e87b2518f87",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Speaker",
+        "quantity": 1,
+        "price": 104.98,
+        "total_amount": 104.98,
+        "customer_name": "Hannah Hodges"
+    },
+    {
+        "order_id": "cb62c771-cf8c-4a4e-8dd1-0690adcf0fec",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Monitor",
+        "quantity": 5,
+        "price": 311.31,
+        "total_amount": 1556.55,
+        "customer_name": "James Dixon"
+    },
+    {
+        "order_id": "cb01c11d-39dd-4e6f-a0c1-8d5bf0d47a4c",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Keyboard",
+        "quantity": 4,
+        "price": 55.91,
+        "total_amount": 223.64,
+        "customer_name": "Victoria Wilson"
+    },
+    {
+        "order_id": "2f91bf87-dc3b-49c0-82e4-7879050f0c5b",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Keyboard",
+        "quantity": 2,
+        "price": 87.39,
+        "total_amount": 174.78,
+        "customer_name": "Suzanne Martin"
+    },
+    {
+        "order_id": "62e96da1-a592-42ee-b489-6c2606d0d351",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Mouse",
+        "quantity": 3,
+        "price": 46.56,
+        "total_amount": 139.68,
+        "customer_name": "Johnny Morales"
+    },
+    {
+        "order_id": "d58cfc6c-7b77-4a72-abd0-088bce836827",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartphone",
+        "quantity": 3,
+        "price": 799.33,
+        "total_amount": 2397.99,
+        "customer_name": "Carla Young"
+    },
+    {
+        "order_id": "3cad82cf-f104-479f-9c58-ca56de605812",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Headphones",
+        "quantity": 5,
+        "price": 244.19,
+        "total_amount": 1220.95,
+        "customer_name": "Alan Young"
+    },
+    {
+        "order_id": "0a3e9699-4d17-4d41-8fd7-24777cf0ac54",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Speaker",
+        "quantity": 4,
+        "price": 120.47,
+        "total_amount": 481.88,
+        "customer_name": "Janet Morton"
+    },
+    {
+        "order_id": "b2e04bef-4b0e-480f-90c4-6e2862c0382c",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Speaker",
+        "quantity": 1,
+        "price": 111.35,
+        "total_amount": 111.35,
+        "customer_name": "Danielle Thompson"
+    },
+    {
+        "order_id": "45d81d2a-519f-40d4-8f56-905d0869e56f",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartphone",
+        "quantity": 1,
+        "price": 807.65,
+        "total_amount": 807.65,
+        "customer_name": "Tammy Rodriguez"
+    },
+    {
+        "order_id": "6934bb00-2606-4088-b236-78cff44e9e60",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Camera",
+        "quantity": 4,
+        "price": 860.59,
+        "total_amount": 3442.36,
+        "customer_name": "Cory Duffy"
+    },
+    {
+        "order_id": "642a79b6-5212-4783-aaf8-6a038ccc637c",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Monitor",
+        "quantity": 1,
+        "price": 387.98,
+        "total_amount": 387.98,
+        "customer_name": "Tammy Roberts"
+    },
+    {
+        "order_id": "37f10a59-9449-44ff-9062-384f7a795ce8",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartwatch",
+        "quantity": 5,
+        "price": 340.68,
+        "total_amount": 1703.4,
+        "customer_name": "Amanda Haas"
+    },
+    {
+        "order_id": "b3cc000a-5ff8-4341-9cda-da53325de948",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartphone",
+        "quantity": 3,
+        "price": 771.88,
+        "total_amount": 2315.64,
+        "customer_name": "Gregory James"
+    },
+    {
+        "order_id": "b4c0f4dd-253f-45fc-b82e-58956ea4263a",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Monitor",
+        "quantity": 4,
+        "price": 392.33,
+        "total_amount": 1569.32,
+        "customer_name": "Craig Smith"
+    },
+    {
+        "order_id": "b40a654a-5a4d-45fb-9e78-0aed9a5c2623",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Monitor",
+        "quantity": 5,
+        "price": 301.6,
+        "total_amount": 1508.0,
+        "customer_name": "Vanessa Melendez"
+    },
+    {
+        "order_id": "8a11fd7a-06ce-4e5c-97d0-448b63e67fac",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Tablet",
+        "quantity": 3,
+        "price": 520.03,
+        "total_amount": 1560.09,
+        "customer_name": "Daniel Johnson"
+    },
+    {
+        "order_id": "c41c7f59-8fd8-4ea2-be1c-d3c68f47b85f",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Monitor",
+        "quantity": 5,
+        "price": 363.38,
+        "total_amount": 1816.9,
+        "customer_name": "Steven Singh"
+    },
+    {
+        "order_id": "b3485e73-581a-4145-bb8d-9fce11a52e6a",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartphone",
+        "quantity": 5,
+        "price": 833.88,
+        "total_amount": 4169.4,
+        "customer_name": "Rachael Davis"
+    },
+    {
+        "order_id": "ed5876f5-40e0-4626-9ddc-3add333dda7f",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Tablet",
+        "quantity": 3,
+        "price": 476.57,
+        "total_amount": 1429.71,
+        "customer_name": "Angela Thompson"
+    },
+    {
+        "order_id": "24627bcd-fc0e-4266-a349-b9785bfb333f",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Tablet",
+        "quantity": 5,
+        "price": 542.53,
+        "total_amount": 2712.65,
+        "customer_name": "Timothy Miles"
+    },
+    {
+        "order_id": "cd48446e-db34-4326-99d8-a106a4499bc6",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartphone",
+        "quantity": 4,
+        "price": 759.88,
+        "total_amount": 3039.52,
+        "customer_name": "Natalie Hunt"
+    },
+    {
+        "order_id": "2048fbc3-2614-4b46-bde7-de5430e3b299",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Tablet",
+        "quantity": 3,
+        "price": 524.5,
+        "total_amount": 1573.5,
+        "customer_name": "Derrick Patterson"
+    },
+    {
+        "order_id": "98894f59-dde7-4fc0-afda-f1920a279d13",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Laptop",
+        "quantity": 4,
+        "price": 1342.39,
+        "total_amount": 5369.56,
+        "customer_name": "Kayla Chang"
+    },
+    {
+        "order_id": "e562d7df-ac3d-43b0-9bf1-6f9555ed0425",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Monitor",
+        "quantity": 4,
+        "price": 336.55,
+        "total_amount": 1346.2,
+        "customer_name": "Sabrina Thompson"
+    },
+    {
+        "order_id": "e123eec5-814d-457b-bf56-3d33f10f37d0",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Tablet",
+        "quantity": 3,
+        "price": 474.2,
+        "total_amount": 1422.6,
+        "customer_name": "John Joyce"
+    },
+    {
+        "order_id": "88165d28-9df1-42f3-a24d-ea7d8befed29",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartphone",
+        "quantity": 1,
+        "price": 798.83,
+        "total_amount": 798.83,
+        "customer_name": "Suzanne Parker"
+    },
+    {
+        "order_id": "d00da064-1621-453d-9ded-ad72e3dd1dee",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Mouse",
+        "quantity": 3,
+        "price": 26.38,
+        "total_amount": 79.14,
+        "customer_name": "Mckenzie Fitzpatrick"
+    },
+    {
+        "order_id": "fa0984ff-d4a0-4de6-8d90-e1ff2918b70a",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartwatch",
+        "quantity": 2,
+        "price": 320.33,
+        "total_amount": 640.66,
+        "customer_name": "Douglas Davis"
+    },
+    {
+        "order_id": "8aa2b8d9-54fe-4934-81c1-ba591c434030",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Mouse",
+        "quantity": 4,
+        "price": 55.59,
+        "total_amount": 222.36,
+        "customer_name": "Amber Dillon"
+    },
+    {
+        "order_id": "e6b82c01-3a62-4101-abe3-69ecbc2b956d",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Mouse",
+        "quantity": 1,
+        "price": 76.98,
+        "total_amount": 76.98,
+        "customer_name": "Andrew Watson"
+    },
+    {
+        "order_id": "2f8b8595-6680-4940-b054-ed222bc39f8e",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Speaker",
+        "quantity": 4,
+        "price": 152.08,
+        "total_amount": 608.32,
+        "customer_name": "Jeremy Norman"
+    },
+    {
+        "order_id": "2750b886-1491-4ad9-be2a-02412c610177",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Mouse",
+        "quantity": 3,
+        "price": 38.68,
+        "total_amount": 116.04,
+        "customer_name": "Phillip Cortez"
+    },
+    {
+        "order_id": "b583d0a2-84f3-4e10-bfa4-5dd75f1a897f",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Headphones",
+        "quantity": 5,
+        "price": 218.04,
+        "total_amount": 1090.2,
+        "customer_name": "Grant Wright"
+    },
+    {
+        "order_id": "8595bd24-cd85-4012-b12b-af8ff44b8cc8",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartphone",
+        "quantity": 3,
+        "price": 770.0,
+        "total_amount": 2310.0,
+        "customer_name": "Jessica Green"
+    },
+    {
+        "order_id": "dd2601b4-f643-430d-ba7e-2d5e4b7382a5",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Monitor",
+        "quantity": 3,
+        "price": 380.88,
+        "total_amount": 1142.64,
+        "customer_name": "Vicki Moreno"
+    },
+    {
+        "order_id": "6640eb8e-44d2-4f93-aa33-d6458680f1a3",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Tablet",
+        "quantity": 1,
+        "price": 462.52,
+        "total_amount": 462.52,
+        "customer_name": "Phyllis Bridges"
+    },
+    {
+        "order_id": "220f03d1-6238-4ba2-a10f-504dbe83e625",
+        "timestamp": "2025-07-20 05:51AM",
+        "item": "Smartwatch",
+        "quantity": 3,
+        "price": 262.25,
+        "total_amount": 786.75,
+        "customer_name": "David Lopez"
+    },
+    {
+        "order_id": "c1c9d2f9-04cc-44d0-a14b-13bfc9cdbebb",
+        "timestamp": "2025-07-20 05:52AM",
+        "item": "Smartphone",
+        "quantity": 2,
+        "price": 799.99,
+        "total_amount": 1599.98,
+        "customer_name": "Alice Wonderland"
+    },
+    {
+        "order_id": "131f24eb-0194-4398-b1a8-0866ccb620c3",
+        "timestamp": "2025-07-20 05:52AM",
+        "item": "Monitor",
+        "quantity": 3,
+        "price": 325.63,
+        "total_amount": 976.89,
+        "customer_name": "Mark Kirby"
+    },
+    {
+        "order_id": "832f2638-52b9-461c-b4c2-bbc6b234a163",
+        "timestamp": "2025-07-20 05:52AM",
+        "item": "Speaker",
+        "quantity": 4,
+        "price": 174.31,
+        "total_amount": 697.24,
+        "customer_name": "Joseph Stevens"
+    },
+    {
+        "order_id": "44d89e7d-3baa-4bda-b51f-3b71560f9f21",
+        "timestamp": "2025-07-20 05:52AM",
+        "item": "Camera",
+        "quantity": 1,
+        "price": 895.24,
+        "total_amount": 895.24,
+        "customer_name": "Jonathan Rosales"
+    },
+    {
+        "order_id": "c3a80a0f-9be7-44a4-b49e-a06604843df0",
+        "timestamp": "2025-07-20 05:52AM",
+        "item": "Smartphone",
+        "quantity": 1,
+        "price": 830.23,
+        "total_amount": 830.23,
+        "customer_name": "Seth Jones"
+    },
+    {
+        "order_id": "f494146f-89a5-4549-b402-8c3dc4a1d030",
+        "timestamp": "2025-07-20 05:52AM",
+        "item": "Tablet",
+        "quantity": 4,
+        "price": 536.82,
+        "total_amount": 2147.28,
+        "customer_name": "Whitney Little"
+    },
+    {
+        "order_id": "83a0f5b8-5956-4583-bdba-657c5358821f",
+        "timestamp": "2025-07-20 05:52AM",
+        "item": "Smartphone",
+        "quantity": 1,
+        "price": 816.05,
+        "total_amount": 816.05,
+        "customer_name": "Ryan Ware"
+    },
+    {
+        "order_id": "ed1a4c8b-4b4b-4824-8d60-c93226df79dc",
+        "timestamp": "2025-07-20 05:52AM",
+        "item": "Keyboard",
+        "quantity": 3,
+        "price": 53.6,
+        "total_amount": 160.8,
+        "customer_name": "Elizabeth Gray"
+    },
+    {
+        "order_id": "bdcd6d6c-23ad-46bd-b4d7-fd0322d25795",
+        "timestamp": "2025-07-20 05:52AM",
+        "item": "Monitor",
+        "quantity": 1,
+        "price": 390.64,
+        "total_amount": 390.64,
+        "customer_name": "Joseph Woods"
+    },
+    {
+        "order_id": "3c345d1f-6a98-4e80-8588-85290da0bf01",
+        "timestamp": "2025-07-20 05:52AM",
+        "item": "Monitor",
+        "quantity": 5,
+        "price": 386.94,
+        "total_amount": 1934.7,
+        "customer_name": "Tammy Ali"
+    },
+    {
+        "order_id": "a802098b-e47c-414e-9747-877287cca074",
+        "timestamp": "2025-07-20 05:52AM",
+        "item": "Camera",
+        "quantity": 3,
+        "price": 872.27,
+        "total_amount": 2616.81,
+        "customer_name": "James Garcia"
+    },
+    {
+        "order_id": "c61bb006-4a33-497e-bc25-70fe404dd241",
+        "timestamp": "2025-07-20 06:25AM",
+        "item": "Monitor",
+        "quantity": 3,
+        "price": 325.63,
+        "total_amount": 976.89,
+        "customer_name": "Mark Kirby"
+    },
+    {
+        "order_id": "7e194bfb-5170-4d53-818b-a8742cbad739",
+        "timestamp": "2025-07-20 06:25AM",
+        "item": "Speaker",
+        "quantity": 4,
+        "price": 174.31,
+        "total_amount": 697.24,
+        "customer_name": "Joseph Stevens"
+    },
+    {
+        "order_id": "e4504949-845c-454a-9d35-418b9af8b4b5",
+        "timestamp": "2025-07-20 06:25AM",
+        "item": "Camera",
+        "quantity": 1,
+        "price": 895.24,
+        "total_amount": 895.24,
+        "customer_name": "Jonathan Rosales"
+    },
+    {
+        "order_id": "28d8a021-32d3-4322-981c-d1e051f79a9f",
+        "timestamp": "2025-07-20 06:25AM",
+        "item": "Smartphone",
+        "quantity": 1,
+        "price": 830.23,
+        "total_amount": 830.23,
+        "customer_name": "Seth Jones"
+    },
+    {
+        "order_id": "f25ecce8-5408-4b0f-ad83-83a68d687785",
+        "timestamp": "2025-07-20 06:25AM",
+        "item": "Tablet",
+        "quantity": 4,
+        "price": 536.82,
+        "total_amount": 2147.28,
+        "customer_name": "Whitney Little"
+    },
+    {
+        "order_id": "5492c42f-5f5a-45d6-89d4-ca158278002d",
+        "timestamp": "2025-07-20 06:25AM",
+        "item": "Smartphone",
+        "quantity": 1,
+        "price": 816.05,
+        "total_amount": 816.05,
+        "customer_name": "Ryan Ware"
+    },
+    {
+        "order_id": "c5c1750f-0d40-4bbb-a0cb-549ea7653b3d",
+        "timestamp": "2025-07-20 06:25AM",
+        "item": "Keyboard",
+        "quantity": 3,
+        "price": 53.6,
+        "total_amount": 160.8,
+        "customer_name": "Elizabeth Gray"
+    },
+    {
+        "order_id": "369c0e11-9145-45dc-b53c-f7d4f7aba576",
+        "timestamp": "2025-07-20 06:25AM",
+        "item": "Monitor",
+        "quantity": 1,
+        "price": 390.64,
+        "total_amount": 390.64,
+        "customer_name": "Joseph Woods"
+    },
+    {
+        "order_id": "ba072d28-d83b-48ee-9d74-b12c194bad3c",
+        "timestamp": "2025-07-20 06:25AM",
+        "item": "Monitor",
+        "quantity": 5,
+        "price": 386.94,
+        "total_amount": 1934.7,
+        "customer_name": "Tammy Ali"
+    },
+    {
+        "order_id": "a2ec6325-01a6-4231-b8a2-8164b0b1725f",
+        "timestamp": "2025-07-20 06:25AM",
+        "item": "Camera",
+        "quantity": 3,
+        "price": 872.27,
+        "total_amount": 2616.81,
+        "customer_name": "James Garcia"
+    },
+    {
+        "order_id": "92f9fa48-605a-4cd1-b1d1-e3fe73733e79",
+        "timestamp": "2025-07-20 06:26AM",
+        "item": "Speaker",
+        "quantity": 4,
+        "price": 174.31,
+        "total_amount": 697.24,
+        "customer_name": "Joseph Stevens"
+    },
+    {
+        "order_id": "c8eb72c2-8834-4c8b-9e64-26acea77d889",
+        "timestamp": "2025-07-20 06:26AM",
+        "item": "Camera",
+        "quantity": 1,
+        "price": 895.24,
+        "total_amount": 895.24,
+        "customer_name": "Jonathan Rosales"
+    },
+    {
+        "order_id": "fed691e5-0471-4669-b215-7620494ec6e7",
+        "timestamp": "2025-07-20 06:26AM",
+        "item": "Smartphone",
+        "quantity": 1,
+        "price": 830.23,
+        "total_amount": 830.23,
+        "customer_name": "Seth Jones"
+    },
+    {
+        "order_id": "2444cf88-ff0c-4f2d-8f38-129c72e734ed",
+        "timestamp": "2025-07-20 06:26AM",
+        "item": "Tablet",
+        "quantity": 4,
+        "price": 536.82,
+        "total_amount": 2147.28,
+        "customer_name": "Whitney Little"
+    },
+    {
+        "order_id": "f66463ae-338e-443d-92a0-c524608b6568",
+        "timestamp": "2025-07-20 06:26AM",
+        "item": "Smartphone",
+        "quantity": 1,
+        "price": 816.05,
+        "total_amount": 816.05,
+        "customer_name": "Ryan Ware"
+    },
+    {
+        "order_id": "0b80b741-f12d-423f-b813-68dd5d28ef04",
+        "timestamp": "2025-07-20 06:26AM",
+        "item": "Keyboard",
+        "quantity": 3,
+        "price": 53.6,
+        "total_amount": 160.8,
+        "customer_name": "Elizabeth Gray"
+    },
+    {
+        "order_id": "c024cac6-117d-4499-a57a-01d1c7da77d3",
+        "timestamp": "2025-07-20 06:26AM",
+        "item": "Monitor",
+        "quantity": 1,
+        "price": 390.64,
+        "total_amount": 390.64,
+        "customer_name": "Joseph Woods"
+    },
+    {
+        "order_id": "84254eae-9184-4159-aeac-7698fb351953",
+        "timestamp": "2025-07-20 06:26AM",
+        "item": "Monitor",
+        "quantity": 5,
+        "price": 386.94,
+        "total_amount": 1934.7,
+        "customer_name": "Tammy Ali"
+    },
+    {
+        "order_id": "57fd15b5-7bd6-40f2-a2ba-0d2ecc3b73c0",
+        "timestamp": "2025-07-20 06:26AM",
+        "item": "Camera",
+        "quantity": 3,
+        "price": 872.27,
+        "total_amount": 2616.81,
+        "customer_name": "James Garcia"
+    },
+    {
+        "order_id": "ad771a31-eb84-45a4-a6ce-d114dea1a796",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Monitor",
+        "quantity": 3,
+        "price": 325.63,
+        "total_amount": 976.89,
+        "customer_name": "Mark Kirby"
+    },
+    {
+        "order_id": "7e3aecd6-b15c-43d4-9cfa-e640a8614b94",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Speaker",
+        "quantity": 4,
+        "price": 174.31,
+        "total_amount": 697.24,
+        "customer_name": "Joseph Stevens"
+    },
+    {
+        "order_id": "6f6ac0dc-dcaa-4a67-bf70-9538d0891455",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Camera",
+        "quantity": 1,
+        "price": 895.24,
+        "total_amount": 895.24,
+        "customer_name": "Jonathan Rosales"
+    },
+    {
+        "order_id": "1bfb5777-159a-4401-8cbc-fd953423b60e",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Smartphone",
+        "quantity": 1,
+        "price": 830.23,
+        "total_amount": 830.23,
+        "customer_name": "Seth Jones"
+    },
+    {
+        "order_id": "4c78038c-5edb-422c-8ab1-3a2ac7de5cdf",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Tablet",
+        "quantity": 4,
+        "price": 536.82,
+        "total_amount": 2147.28,
+        "customer_name": "Whitney Little"
+    },
+    {
+        "order_id": "ad18b9a1-004d-4c81-80e9-a9f9c0bc2ee6",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Smartphone",
+        "quantity": 1,
+        "price": 816.05,
+        "total_amount": 816.05,
+        "customer_name": "Ryan Ware"
+    },
+    {
+        "order_id": "0d8a995e-53d5-4b11-a9d5-60fbbd078de3",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Keyboard",
+        "quantity": 3,
+        "price": 53.6,
+        "total_amount": 160.8,
+        "customer_name": "Elizabeth Gray"
+    },
+    {
+        "order_id": "b75c8c2e-a29a-4671-a731-1042ee396c6b",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Monitor",
+        "quantity": 1,
+        "price": 390.64,
+        "total_amount": 390.64,
+        "customer_name": "Joseph Woods"
+    },
+    {
+        "order_id": "d09d25f7-a60e-44f6-b47c-4962f55fcddc",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Monitor",
+        "quantity": 5,
+        "price": 386.94,
+        "total_amount": 1934.7,
+        "customer_name": "Tammy Ali"
+    },
+    {
+        "order_id": "13ccf4f6-dd3e-4094-a13e-de307f7636ff",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Camera",
+        "quantity": 3,
+        "price": 872.27,
+        "total_amount": 2616.81,
+        "customer_name": "James Garcia"
+    },
+    {
+        "order_id": "5fa78a83-f88d-478a-a627-ebc4664ec489",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Monitor",
+        "quantity": 3,
+        "price": 325.63,
+        "total_amount": 976.89,
+        "customer_name": "Mark Kirby"
+    },
+    {
+        "order_id": "236024d3-43cf-4303-8cd9-7a282f0fa7a1",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Speaker",
+        "quantity": 4,
+        "price": 174.31,
+        "total_amount": 697.24,
+        "customer_name": "Joseph Stevens"
+    },
+    {
+        "order_id": "c479dfbc-6af9-440d-86a7-01d662576481",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Camera",
+        "quantity": 1,
+        "price": 895.24,
+        "total_amount": 895.24,
+        "customer_name": "Jonathan Rosales"
+    },
+    {
+        "order_id": "999059f2-ee7a-404b-8f40-b05b725eb125",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Smartphone",
+        "quantity": 1,
+        "price": 830.23,
+        "total_amount": 830.23,
+        "customer_name": "Seth Jones"
+    },
+    {
+        "order_id": "4b84bd56-5b70-4d5e-b65c-03d752a852dd",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Tablet",
+        "quantity": 4,
+        "price": 536.82,
+        "total_amount": 2147.28,
+        "customer_name": "Whitney Little"
+    },
+    {
+        "order_id": "2e8756db-9533-48c8-bc4c-39f6ce943d94",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Smartphone",
+        "quantity": 1,
+        "price": 816.05,
+        "total_amount": 816.05,
+        "customer_name": "Ryan Ware"
+    },
+    {
+        "order_id": "12f6d454-9d62-4600-b0ea-70f6514ef989",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Keyboard",
+        "quantity": 3,
+        "price": 53.6,
+        "total_amount": 160.8,
+        "customer_name": "Elizabeth Gray"
+    },
+    {
+        "order_id": "57279414-e6a6-4232-8949-654918615879",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Monitor",
+        "quantity": 1,
+        "price": 390.64,
+        "total_amount": 390.64,
+        "customer_name": "Joseph Woods"
+    },
+    {
+        "order_id": "f9537734-bd13-44ac-b5ad-05996e2f2951",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Monitor",
+        "quantity": 5,
+        "price": 386.94,
+        "total_amount": 1934.7,
+        "customer_name": "Tammy Ali"
+    },
+    {
+        "order_id": "a3438dad-ef2a-4b75-9e67-acc011a72bfb",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Camera",
+        "quantity": 3,
+        "price": 872.27,
+        "total_amount": 2616.81,
+        "customer_name": "James Garcia"
+    },
+    {
+        "order_id": "1a589350-cc30-4d75-a54f-6511b20b19fc",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Monitor",
+        "quantity": 3,
+        "price": 325.63,
+        "total_amount": 976.89,
+        "customer_name": "Mark Kirby"
+    },
+    {
+        "order_id": "f13f8c94-6ddb-486b-a798-519ad8fda07e",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Speaker",
+        "quantity": 4,
+        "price": 174.31,
+        "total_amount": 697.24,
+        "customer_name": "Joseph Stevens"
+    },
+    {
+        "order_id": "306f1c1b-ca26-42c6-9411-aab76a57d826",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Camera",
+        "quantity": 1,
+        "price": 895.24,
+        "total_amount": 895.24,
+        "customer_name": "Jonathan Rosales"
+    },
+    {
+        "order_id": "66806fc5-1f0f-43a2-94aa-9cd4d235bd19",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Smartphone",
+        "quantity": 1,
+        "price": 830.23,
+        "total_amount": 830.23,
+        "customer_name": "Seth Jones"
+    },
+    {
+        "order_id": "8ad999c9-1afc-458c-a324-a1591ebadadc",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Tablet",
+        "quantity": 4,
+        "price": 536.82,
+        "total_amount": 2147.28,
+        "customer_name": "Whitney Little"
+    },
+    {
+        "order_id": "c36abaff-db56-4464-af72-d3a29955fa37",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Smartphone",
+        "quantity": 1,
+        "price": 816.05,
+        "total_amount": 816.05,
+        "customer_name": "Ryan Ware"
+    },
+    {
+        "order_id": "0b2b8760-7584-44cd-87ae-084a56e0b535",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Keyboard",
+        "quantity": 3,
+        "price": 53.6,
+        "total_amount": 160.8,
+        "customer_name": "Elizabeth Gray"
+    },
+    {
+        "order_id": "84f4fd82-6998-45b0-806f-90834aabb5a5",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Monitor",
+        "quantity": 1,
+        "price": 390.64,
+        "total_amount": 390.64,
+        "customer_name": "Joseph Woods"
+    },
+    {
+        "order_id": "f30edb09-43ba-452f-857b-389ab8a49a69",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Monitor",
+        "quantity": 5,
+        "price": 386.94,
+        "total_amount": 1934.7,
+        "customer_name": "Tammy Ali"
+    },
+    {
+        "order_id": "47dddb0b-6a16-4677-b978-99840cca9f7b",
+        "timestamp": "2025-07-20 06:35AM",
+        "item": "Camera",
+        "quantity": 3,
+        "price": 872.27,
+        "total_amount": 2616.81,
+        "customer_name": "James Garcia"
+    }
+]
